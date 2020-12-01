@@ -1,0 +1,3 @@
+gcc loanprocessor.c creditscore.c loan.c -lpthread -lrt -o processor
+gcc loanreciever.c loan.c -lpthread -lrt -o reciever
+gcc loanwriter.c loan.c -o loanwriter

@@ -1,0 +1,9 @@
+rm loansocket
+rm loanwriter
+rm processor
+rm reciever
+rm currentFifo
+rm loan_info.csv
+rm -rf __pycache__
+
+rm *.log
