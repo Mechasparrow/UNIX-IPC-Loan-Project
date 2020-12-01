@@ -7,7 +7,6 @@ Simulate a IPC scenario with a api (Incoming-Loans), Reciever,  Processor (Loan 
 # Implementation
 
 (loan_api.py)------>(receiver)---------->(processor)--------->(loanwriter)------>loan_info.csv
-   FIFO             Messaging Queue       Unix Socket           FILE I/O
 
 
 # Requirements
